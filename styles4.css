@@ -203,11 +203,9 @@ section {
   flex-direction: column;
 }
 
-/*
 .projects li:hover p {
   display: flex;
 }
-*/
 
 @media screen and (max-width: 80vh) {
   .projects ul li p {
