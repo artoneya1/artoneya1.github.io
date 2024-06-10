@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Code Pro", cursive;
+}
+
+/* header */
+h2 {
+  font-size: 10vh;
+}
+
+.header {
+  height: 60vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(header-background.jpg) center;
+  background-size: cover;
+}
+
+.header div {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5vh 10vh;
+}
+
+.header h1 {
+  font-family: "Playfair Display", cursive;
+  font-size: 10vh;
+}
+
+/*
+@media screen and (max-width: 800px) {
+  .header div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+}
+*/
+
+.header {
+  height: 90vh;
+}
+
+/* about */
+.about h2 {
+  font-size: 5vh;
+}
+
+.about div {
+  display: flex;
+  text-align: justify;
+  column-gap: 5vh;
+}
+
+.about div p {
+  flex: 1;
+}
+
+.about {
+  max-width: 80%;
+  margin: 10vh auto;
+  text-align: center;
+  font-family: "Playfair Display", cursive;
+}
+
+.about a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1vh;
+  font-weight: bold;
+  margin: 0 2.5vh;
+  font-family: "Playfair Display", cursive;
+}
+
+.about a:hover {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-size: 5vh;
+  margin-bottom: 5vh;
+  font-family: "Playfair Display", cursive;
+}
+
+@media screen and (max-width: 80vh) {
+  .about div {
+    flex-direction: column;
+    row-gap: 10vh;
+    column-gap: 5vh;
+  }
+}
+
+section {
+  padding: 5vh 5vh;
+}
+
+/* skills */
+.skills img {
+  width: 20%;
+}
+
+.skills {
+  background: url(header-background2.jpg) center;
+  background-size: 90%;
+  color: white;
+  text-align: center;
+  padding: 10vh 3vh;
+}
+
+.skills ul li {
+  list-style: none;
+  flex: 1;
+}
+
+.skills ul {
+  display: flex;
+  column-gap: 5vh;
+  justify-content: space-around;
+}
+
+.skills-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.skills .tittle {
+  font-size: 3vh;
+  margin: 5vh 0;
+  font-family: "Playfair Display", cursive;
+}
+
+@media screen and (max-width: 80vh) {
+  .skills ul {
+    flex-direction: column;
+    row-gap: 20vh;
+  }
+}
+
+/* projects */
+.projects ul li {
+  background-size: cover;
+  list-style: none;
+  height: 50vh;
+  min-width: 50vh;
+  width: 45%;
+}
+
+.primer1 {
+  background: url(fur1.jpg) center;
+}
+
+.primer2 {
+  background: url(fur2.jpg) center;
+}
+
+.primer3 {
+  background: url(fur3.jpg) center;
+}
+
+.primer4 {
+  background: url(fur4.jpg) center;
+}
+
+.primer5 {
+  background: url(fur5.jpg) center;
+}
+
+.primer6 {
+  background: url(fur6.jpg) center;
+}
+
+.projects ul {
+  display: flex;
+  gap: 5vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.projects p {
+  display: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*
+.projects li:hover p {
+  display: flex;
+}
+*/
+
+@media screen and (max-width: 80vh) {
+  .projects ul li p {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .projects li p {
+    display: flex;
+  }
+}
+
+/* footer */
+.footer img {
+  width: 80vh;
+}
+
+.footer {
+  height: 20vh;
+}
+
+.footer {
+  background: url(footer-background3.jpg) center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
