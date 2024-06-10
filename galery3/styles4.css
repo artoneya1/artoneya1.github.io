@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Code Pro", cursive;
+}
+
+
+/* header */
+h2 {
+  font-size: 5vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  font-family: "Playfair Display", cursive;
+}
+
+/* projects */
+.projects ul li {
+  background-size: cover;
+  list-style: none;
+  height: 50vh;
+  min-width: 50vh;
+  width: 45%;
+}
+
+.primer1 {
+  background: url(skin1.jpg) center;
+}
+
+.primer2 {
+  background: url(skin2.jpg) center;
+}
+
+.primer3 {
+  background: url(skin3.jpg) center;
+}
+
+.primer4 {
+  background: url(skin4.jpg) center;
+}
+
+.primer5 {
+  background: url(skin5.jpg) center;
+}
+
+.primer6 {
+  background: url(skin6.jpg) center;
+}
+
+.projects ul {
+  display: flex;
+  gap: 5vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.projects p {
+  display: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects li:hover p {
+  display: flex;
+}
+
+@media screen and (max-width: 80vh) {
+  .projects ul li p {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .projects li p {
+    display: flex;
+  }
+}
+
+/* footer */
+.footer img {
+  width: 80vh;
+}
+
+.footer {
+  height: 20vh;
+}
+
+.footer {
+  background: url(../footer-background3.jpg) center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
